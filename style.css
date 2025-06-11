@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: white;
+  color: #000;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background: #000;
+  color: #fff;
+  align-items: center;
+}
+
+header nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+
+header button {
+  background: white;
+  color: black;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.hero {
+  background: #f26522;
+  text-align: center;
+  padding: 2rem;
+  position: relative;
+}
+
+.hero-dog {
+  width: 250px;
+  position: relative;
+  top: 20px;
+}
+
+.quote {
+  background: #000;
+  color: #fff;
+  display: inline-block;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.sobre, .servicos, .equipe, .contato {
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.sobre img {
+  width: 150px;
+  border-radius: 20px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #eee;
+  padding: 1rem;
+  border-radius: 10px;
+  width: 250px;
+}
+
+.contato form {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 300px;
+  margin-inline: auto;
+}
+
+.contato input, .contato textarea {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+}
+
+footer {
+  background: #000;
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+.hero img{
+  border-radius: 25px;  
+}
+
+.equipe img{
+  border-radius:20px ;
+  width: 250px;
+}
+
+.sobre img{
+  border-radius: 30px;
+  width: 300px;
+}
+
+
+
