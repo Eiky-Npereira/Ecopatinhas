@@ -2,118 +2,150 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
+}
+
+.containergrid{
+    width: 80vw;
+    max: width 1400px; 
+    margin: 0 auto;
 }
 
 body {
-  background: white;
-  color: #000;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #333;
 }
 
 header {
-  display: flex;
-  justify-content: space-between;
-  padding: 1rem 2rem;
   background: #000;
   color: #fff;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
+  padding: 1rem 2rem;
 }
 
-header nav a {
-  margin: 0 10px;
-  color: white;
+.logo {
+  font-size: 3rem  1rem ;
+  
+}
+
+nav a {
+  margin: 0 1rem;
+  color: #fff;
   text-decoration: none;
 }
 
-header button {
-  background: white;
-  color: black;
+nav .btn {
+  background-color: orange;
+  color: #000;
   border: none;
-  padding: 5px 10px;
+  padding: 0.5rem 1rem;
   cursor: pointer;
+  border-radius: 20px;
 }
 
-.hero {
-  background: #f26522;
+.banner {
+  background-color: orange;
   text-align: center;
   padding: 2rem;
   position: relative;
 }
 
-.hero-dog {
-  width: 250px;
-  position: relative;
-  top: 20px;
+.banner .dog-main {
+  width: 200px;
+  border-radius: 20px;
 }
 
-.quote {
-  background: #000;
-  color: #fff;
-  display: inline-block;
-  padding: 1rem;
-  margin-bottom: 1rem;
+.cta {
+  margin-top: 1rem;
 }
 
-.sobre, .servicos, .equipe, .contato {
-  padding: 3rem 2rem;
+.pattern {
+  height: 40px;
+  background-image: url('pattern.png');
+  background-repeat: repeat-x;
+  width: 100px;
+}
+
+.about, .services, .team, .contact {
+  padding: 2rem;
   text-align: center;
 }
 
-.sobre img {
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.about img {
   width: 150px;
   border-radius: 20px;
 }
 
-.cards {
+.service-boxes {
   display: flex;
   justify-content: center;
   gap: 1rem;
-  margin-top: 2rem;
   flex-wrap: wrap;
+  margin-top: 1rem;
 }
 
-.card {
-  background: #eee;
+.box {
+  background: #fff8e1;
   padding: 1rem;
-  border-radius: 10px;
-  width: 250px;
+  border-radius: 12px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  width: 200px;
 }
 
-.contato form {
-  margin-top: 2rem;
+.team img {
+  width: 200px;
+  border-radius: 20px;
+  margin-top: 1rem;
+}
+
+.contact form {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-  width: 300px;
-  margin-inline: auto;
+  max-width: 400px;
+  margin: 0 auto;
 }
 
-.contato input, .contato textarea {
+input, textarea {
   padding: 0.5rem;
   border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+form button {
+  background: orange;
+  border: none;
+  padding: 0.7rem;
+  border-radius: 15px;
+  cursor: pointer;
 }
 
 footer {
-  background: #000;
+  background-color: #000;
   color: #fff;
-  padding: 2rem;
-  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 6rem 2rem;
+  font-size: 2rem;
 }
 
-
-.hero img{
-  border-radius: 25px;  
+header img{
+    height:100px;
 }
 
-.equipe img{
-  border-radius:20px ;
-  width: 250px;
+header .containergrid{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
 }
-
-.sobre img{
-  border-radius: 30px;
-  width: 300px;
-}
-
-
-
