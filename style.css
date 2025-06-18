@@ -53,7 +53,7 @@ nav .btn {
 }
 
 .banner .dog-main {
-  width: 200px;
+  width: 250px;
   border-radius: 20px;
 }
 
@@ -82,7 +82,7 @@ nav .btn {
 }
 
 .about img {
-  width: 150px;
+  width: 190px;
   border-radius: 20px;
 }
 
@@ -103,7 +103,7 @@ nav .btn {
 }
 
 .team img {
-  width: 200px;
+  width: 300px;
   border-radius: 20px;
   margin-top: 1rem;
 }
@@ -148,4 +148,12 @@ header .containergrid{
     justify-content: space-between;
     align-items: center;
     
+}
+
+.services text{
+  font-family:"Recursive",sans-linear;
+}
+
+*{
+  font-family:"Recursive",sans-Linear;
 }
