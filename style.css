@@ -6,7 +6,7 @@
 
 .containergrid{
     width: 80vw;
-    max: width 1400px; 
+    max-width:1400px; 
     margin: 0 auto;
 }
 
@@ -156,4 +156,39 @@ header .containergrid{
 
 *{
   font-family:"Recursive",sans-Linear;
+}
+
+.service-boxes{
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-inicial{
+  background-image: url(./img/sla\ 22.png);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: 0 -10px;
+}
+
+#parallax {
+    height: 250px;
+
+   
+    background: linear-gradient(rgba(0, 0, 0, 0.26)), url(./img/parallax\ eco.svg);
+    background-attachment: fixed;
+    background-size: 30%;
+    margin-bottom: 120px;
+    
+}
+
+#parallax02 {
+    height: 250px;
+
+   
+    background: linear-gradient(rgba(0, 0, 0, 0.26)), url(./img/parallax\ eco.svg);
+    background-attachment: fixed;
+    background-size: 30%;
+    margin-bottom: 120px;
 }
