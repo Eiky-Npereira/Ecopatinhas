@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -8,6 +9,11 @@
     width: 80vw;
     max-width:1400px; 
     margin: 0 auto;
+}
+
+@font-face{
+  font-family: "Recursive";
+  src: url(./fonts/Recursive-VariableFont_CASL\,CRSV\,MONO\,slnt\,wght.ttf);
 }
 
 body {
@@ -86,6 +92,10 @@ nav .btn {
   border-radius: 20px;
 }
 
+.services{
+  height: 400px;
+}
+
 .service-boxes {
   display: flex;
   justify-content: center;
@@ -94,12 +104,18 @@ nav .btn {
   margin-top: 1rem;
 }
 
+.service-boxes h3{
+  font-size: 30px;
+  font-family: "Recursive", sans-Linear-bold;
+}
+
 .box {
   background: #fff8e1;
   padding: 1rem;
   border-radius: 12px;
   box-shadow: 0 0 5px rgba(0,0,0,0.1);
-  width: 200px;
+  width: 250px;
+  height: 300px;
 }
 
 .team img {
@@ -178,8 +194,8 @@ header .containergrid{
    
     background: linear-gradient(rgba(0, 0, 0, 0.26)), url(./img/parallax\ eco.svg);
     background-attachment: fixed;
-    background-size: 30%;
-    margin-bottom: 120px;
+    background-size: 200%;
+    margin-bottom: 120px;
     
 }
 
@@ -189,6 +205,6 @@ header .containergrid{
    
     background: linear-gradient(rgba(0, 0, 0, 0.26)), url(./img/parallax\ eco.svg);
     background-attachment: fixed;
-    background-size: 30%;
-    margin-bottom: 120px;
+    background-size: 330%;
+    margin-bottom: 120px;
 }
